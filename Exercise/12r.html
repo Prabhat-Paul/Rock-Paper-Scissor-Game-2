@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="/Styles/12r.css">
+  </head>
+
+  <body>
+    <div>
+       <p class="title">Rock Paper Scissors</p>
+
+      <button
+        class="rock-button"
+        onclick="
+        GameRules('Rock');
+      "
+      >
+        <img class="move-icon" src="/images/rock-emoji.png" />
+      </button>
+
+      <button
+        class="paper-button"
+        onclick="
+        GameRules('Paper');
+      "
+      >
+        <img class="move-icon" src="/images/paper-emoji.png" />
+      </button>
+
+      <button
+        class="scissor-button"
+        onclick="
+        GameRules('Scissors');
+      "
+      >
+        <img class="move-icon" src="/images/scissors-emoji.png" />
+      </button>
+
+      <p class="js-result"></p>
+      <p class="js-moves"></p>
+      <p class="js-score"></p>
+
+      <button
+        class="reset-score-button"
+      >
+        Reset Score
+      </button>
+      <button class="auto-play-button" >Auto Play</button>
+      <p class="reset-score-confirmation"></p>
+    </div>
+   
+
+    <script src="/Scripts/12r.js"></script>
+  </body>
+</html>
